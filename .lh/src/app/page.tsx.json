@@ -1,0 +1,110 @@
+{
+    "sourceFile": "src/app/page.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1733661637740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1733661645473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import Image from \"next/image\";\n+\n+export default function Home() {\n+  return (\n+    <>\n+    \n+    \n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733661652112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import Image from \"next/image\";\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <h1> Hello </h1>\n+    \n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733661659541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,26 +2,9 @@\n \n export default function Home() {\n   return (\n     <>\n-    <h1> Hello </h1>\n+    <h1 className=\"bg-gree\"> Hello </h1>\n     \n     </>\n   );\n }\n-import Image from \"next/image\";\n-\n-export default function Home() {\n-  return (\n-    <>\n-    \n-    \n-    </>\n-  );\n-}\n-import Image from \"next/image\";\n-\n-export default function Home() {\n-  return (\n-    \n-  );\n-}\n"
+                },
+                {
+                    "date": 1733661666422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import Image from \"next/image\";\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <h1 className=\"bg-green-500 text-center\"> Hello </h1>\n+    \n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733661730933,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,4 @@\n-import Image from \"next/image\";\n \n export default function Home() {\n   return (\n     <>\n@@ -7,14 +6,4 @@\n     \n     </>\n   );\n }\n-import Image from \"next/image\";\n-\n-export default function Home() {\n-  return (\n-    <>\n-    <h1 className=\"bg-gree\"> Hello </h1>\n-    \n-    </>\n-  );\n-}\n"
+                },
+                {
+                    "date": 1733661747212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+\"use client\"\n export default function Home() {\n   return (\n     <>\n     <h1 className=\"bg-green-500 text-center\"> Hello </h1>\n"
+                },
+                {
+                    "date": 1733662011257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+\"use client\";\n+export default function Home() {\n+  return (\n+    <>\n+    <section>\n+      \n+    </section>\n+    \n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733662048112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,19 +2,9 @@\n export default function Home() {\n   return (\n     <>\n     <section>\n-      \n+       <Top />\n     </section>\n-    \n     </>\n   );\n }\n-\"use client\"\n-export default function Home() {\n-  return (\n-    <>\n-    <h1 className=\"bg-green-500 text-center\"> Hello </h1>\n-    \n-    </>\n-  );\n-}\n"
+                },
+                {
+                    "date": 1733662056284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,14 @@\n \"use client\";\n+\n+import Top from \"@/components/Header\";\n+\n export default function Home() {\n   return (\n     <>\n     <section>\n        <Top />\n+       <Nav\n     </section>\n     </>\n   );\n }\n"
+                },
+                {
+                    "date": 1733662062041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+\"use client\";\n+\n+import Top from \"@/components/Header\";\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <section>\n+       <Top />\n+       <Navbar />\n+    </section>\n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733662162093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,16 @@\n \"use client\";\n \n import Top from \"@/components/Header\";\n+import Navbar from \"@/components/Navbar\";\n \n export default function Home() {\n   return (\n     <>\n     <section>\n        <Top />\n        <Navbar />\n+       <Footer />\n     </section>\n     </>\n   );\n }\n-\"use client\";\n-\n-import Top from \"@/components/Header\";\n-\n-export default function Home() {\n-  return (\n-    <>\n-    <section>\n-       <Top />\n-       <Nav\n-    </section>\n-    </>\n-  );\n-}\n"
+                },
+                {
+                    "date": 1733669845055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+\"use client\";\n+\n+import Footer from \"@/components/Footer\";\n+import Top from \"@/components/Header\";\n+import Navbar from \"@/components/Navbar\";\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <section>\n+      \n+    </section>\n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733669857671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+\"use client\";\n+\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <section>\n+      hello world\n+    </section>\n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733672524910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+\"use client\";\n+\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <section>\n+      hello world\n+\n+      \n+    </section>\n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733672530886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,52 +6,41 @@\n     <>\n     <section>\n       hello world\n \n-      \n-    </section>\n-    </>\n-  );\n-}\n-\"use client\";\n+      <section className=\"text-gray-600 body-font\">\n+  <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n+    <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n+      <h1 className=\"title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900\">\n+        Before they sold out\n+        <br className=\"hidden lg:inline-block\" />\n+        readymade gluten\n+      </h1>\n+      <p className=\"mb-8 leading-relaxed\">\n+        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air\n+        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk\n+        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard\n+        chambray.\n+      </p>\n+      <div className=\"flex justify-center\">\n+        <button className=\"inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg\">\n+          Button\n+        </button>\n+        <button className=\"ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg\">\n+          Button\n+        </button>\n+      </div>\n+    </div>\n+    <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n+      <img\n+        className=\"object-cover object-center rounded\"\n+        alt=\"hero\"\n+        src=\"https://dummyimage.com/720x600\"\n+      />\n+    </div>\n+  </div>\n+</section>\n \n-\n-export default function Home() {\n-  return (\n-    <>\n-    <section>\n-      hello world\n-    </section>\n+  \n     </>\n   );\n }\n-\"use client\";\n-\n-import Footer from \"@/components/Footer\";\n-import Top from \"@/components/Header\";\n-import Navbar from \"@/components/Navbar\";\n-\n-export default function Home() {\n-  return (\n-    <>\n-    <section>\n-      \n-    </section>\n-    </>\n-  );\n-}\n-\"use client\";\n-\n-import Top from \"@/components/Header\";\n-import Navbar from \"@/components/Navbar\";\n-\n-export default function Home() {\n-  return (\n-    <>\n-    <section>\n-       <Top />\n-       <Navbar />\n-       <Footer />\n-    </section>\n-    </>\n-  );\n-}\n"
+                },
+                {
+                    "date": 1733672536589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+\"use client\";\n+\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <section>\n+      hello world\n+\n+  <section className=\"text-gray-600 body-font\">\n+  <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n+    <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n+      <h1 className=\"title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900\">\n+        Before they sold out\n+        <br className=\"hidden lg:inline-block\" />\n+        readymade gluten\n+      </h1>\n+      <p className=\"mb-8 leading-relaxed\">\n+        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air\n+        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk\n+        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard\n+        chambray.\n+      </p>\n+      <div className=\"flex justify-center\">\n+        <button className=\"inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg\">\n+          Button\n+        </button>\n+        <button className=\"ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg\">\n+          Button\n+        </button>\n+      </div>\n+    </div>\n+    <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n+      <img\n+        className=\"object-cover object-center rounded\"\n+        alt=\"hero\"\n+        src=\"https://dummyimage.com/720x600\"\n+      />\n+    </div>\n+  </div>\n+</section>\n+\n+  \n+    </>\n+  );\n+}\n"
+                },
+                {
+                    "date": 1733672541990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function Home() {\n   return (\n     <>\n     <section>\n-      hello world\n+   \n \n   <section className=\"text-gray-600 body-font\">\n   <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n     <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n@@ -43,50 +43,4 @@\n   \n     </>\n   );\n }\n-\"use client\";\n-\n-\n-export default function Home() {\n-  return (\n-    <>\n-    <section>\n-      hello world\n-\n-      <section className=\"text-gray-600 body-font\">\n-  <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n-    <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n-      <h1 className=\"title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900\">\n-        Before they sold out\n-        <br className=\"hidden lg:inline-block\" />\n-        readymade gluten\n-      </h1>\n-      <p className=\"mb-8 leading-relaxed\">\n-        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air\n-        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk\n-        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard\n-        chambray.\n-      </p>\n-      <div className=\"flex justify-center\">\n-        <button className=\"inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg\">\n-          Button\n-        </button>\n-        <button className=\"ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg\">\n-          Button\n-        </button>\n-      </div>\n-    </div>\n-    <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n-      <img\n-        className=\"object-cover object-center rounded\"\n-        alt=\"hero\"\n-        src=\"https://dummyimage.com/720x600\"\n-      />\n-    </div>\n-  </div>\n-</section>\n-\n-  \n-    </>\n-  );\n-}\n"
+                },
+                {
+                    "date": 1733672547255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+\"use client\";\n+\n+\n+export default function Home() {\n+  return (\n+    <>\n+    <section>\n+   \n+\n+  <section className=\"text-gray-600 body-font\">\n+  <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n+    <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n+      <h1 className=\"title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900\">\n+        Before they sold out\n+        <br className=\"hidden lg:inline-block\" />\n+        readymade gluten\n+      </h1>\n+      <p className=\"mb-8 leading-relaxed\">\n+        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air\n+        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk\n+        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard\n+        chambray.\n+      </p>\n+      <div className=\"flex justify-center\">\n+        <button className=\"inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg\">\n+          Button\n+        </button>\n+        <button className=\"ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg\">\n+          Button\n+        </button>\n+      </div>\n+    </div>\n+    <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n+      <img\n+        className=\"object-cover object-center rounded\"\n+        alt=\"hero\"\n+        src=\"https://dummyimage.com/720x600\"\n+      />\n+    </div>\n+  </div>\n+</section>\n+\n+  \n+    </>\n+  );\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733672554829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,8 @@\n \n export default function Home() {\n   return (\n     <>\n-    <section>\n-   \n \n   <section className=\"text-gray-600 body-font\">\n   <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n     <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n@@ -42,51 +40,5 @@\n \n   \n     </>\n   );\n-}\n-\"use client\";\n-\n-\n-export default function Home() {\n-  return (\n-    <>\n-    <section>\n-   \n-\n-  <section className=\"text-gray-600 body-font\">\n-  <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n-    <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n-      <h1 className=\"title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900\">\n-        Before they sold out\n-        <br className=\"hidden lg:inline-block\" />\n-        readymade gluten\n-      </h1>\n-      <p className=\"mb-8 leading-relaxed\">\n-        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air\n-        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk\n-        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard\n-        chambray.\n-      </p>\n-      <div className=\"flex justify-center\">\n-        <button className=\"inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg\">\n-          Button\n-        </button>\n-        <button className=\"ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg\">\n-          Button\n-        </button>\n-      </div>\n-    </div>\n-    <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n-      <img\n-        className=\"object-cover object-center rounded\"\n-        alt=\"hero\"\n-        src=\"https://dummyimage.com/720x600\"\n-      />\n-    </div>\n-  </div>\n-</section>\n-\n-  \n-    </>\n-  );\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1733672700431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,13 +28,9 @@\n         </button>\n       </div>\n     </div>\n     <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n-      <img\n-        className=\"object-cover object-center rounded\"\n-        alt=\"hero\"\n-        src=\"https://dummyimage.com/720x600\"\n-      />\n+     \n     </div>\n   </div>\n </section>\n \n"
+                },
+                {
+                    "date": 1733672715849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,15 @@\n         </button>\n       </div>\n     </div>\n     <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n-     \n+    <Image \n+            src=\"/icon.jpg\" \n+            alt=\"Hekto Logo\" \n+            width={100} \n+            height={100} \n+            className=\"mr-20\"\n+            />\n     </div>\n   </div>\n </section>\n \n"
+                },
+                {
+                    "date": 1733672724700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \"use client\";\n \n-import Image\n+import Image from \"next/image\";\n \n export default function Home() {\n   return (\n     <>\n"
+                },
+                {
+                    "date": 1733672730459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+\"use client\";\n+\n+import Image from \"next/image\";\n+\n+export default function Home() {\n+  return (\n+    <>\n+  <section className=\"text-gray-600 body-font\">\n+  <div className=\"container mx-auto flex px-5 py-24 md:flex-row flex-col items-center\">\n+    <div className=\"lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center\">\n+      <h1 className=\"title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900\">\n+        Before they sold out\n+        <br className=\"hidden lg:inline-block\" />\n+        readymade gluten\n+      </h1>\n+      <p className=\"mb-8 leading-relaxed\">\n+        Copper mug try-hard pitchfork pour-over freegan heirloom neutra air\n+        plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk\n+        tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard\n+        chambray.\n+      </p>\n+      <div className=\"flex justify-center\">\n+        <button className=\"inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg\">\n+          Button\n+        </button>\n+        <button className=\"ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg\">\n+          Button\n+        </button>\n+      </div>\n+    </div>\n+    <div className=\"lg:max-w-lg lg:w-full md:w-1/2 w-5/6\">\n+    <Image \n+            src=\"/icon.jpg\" \n+            alt=\"Hekto Logo\" \n+            width={100} \n+            height={100} \n+            className=\"mr-20\"\n+            />\n+    </div>\n+  </div>\n+</section>\n+\n+  \n+    </>\n+  );\n+}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1733661637740,
+            "name": "Commit-0",
+            "content": "import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    \n  );\n}\n"
+        }
+    ]
+}
