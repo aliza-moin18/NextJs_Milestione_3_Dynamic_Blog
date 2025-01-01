@@ -63,7 +63,7 @@ export default function TechInnovations() {
   {/* Hero Section */}
       <section className="text-center mb-12">
         <motion.h1
-          className="text-6xl font-bold text-white"
+          className="text-5xl font-bold text-white"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
